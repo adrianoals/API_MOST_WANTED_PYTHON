@@ -3,7 +3,7 @@ from flasgger import Swagger
 import cx_Oracle
 
 # Configurar a conexão com o Oracle
-oracle_connection = cx_Oracle.connect('RM95667/281088@oracle.fiap.com.br:1521/ORCL')
+oracle_connection = cx_Oracle.connect('XXXXXX/XXXXXX@oracle.fiap.com.br:1521/ORCL')
 
 app = Flask(__name__)
 
